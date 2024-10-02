@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 5px 0px 5px 15px;
+    margin: 10px 25px;
+    background-image: url(5f2bed41-be19-4f0e-8890-b53ffd6fdb88_Eldgos_Fagradalsfjall_Gardar.jpg);
+}
+#first_part{
+    width:auto;
+}
+#most_important_volcanos {
+    margin:20px 10px;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    
+}
+thead,
+tfoot {
+  background-color: rgb(245, 141, 141);
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td {
+  text-align: center;
+}
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+#volcanos_info {
+    
+    position: static;
+    margin:20px 10px 90px 10px;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+      
+}
+footer {
+    position: fixed;
+    text-align: center;
+    color:brown;
+    background-color: rgba(4, 172, 239, 0.2);
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px 7px;
+}
